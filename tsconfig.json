@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
